@@ -1,0 +1,38 @@
+.Menu{
+    color: black;
+    position: absolute;
+    top: 0px;
+    right: -400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    padding: 20px;
+    transition: 0.3s ease-out;
+    font-weight: 80%;
+    font-size: 40px;
+}
+
+.Menu.visible {
+    right: 1px;
+}
+
+.Menu ul{
+padding: 0;
+ margin: 0;
+list-style: none;
+color: #FFFFFF;
+font-size: 40px;
+font-style: thin;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left
+
+
+}
+
+.Menu ul li{
+    padding: 10px;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+
+}

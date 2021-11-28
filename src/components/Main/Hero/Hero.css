@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.Hero-container {
+    background-image: url("/src/assets/Hero\ 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 15%;
+    font-size: 70px;
+    font-style: thin;  
+}
+

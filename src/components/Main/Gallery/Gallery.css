@@ -1,0 +1,11 @@
+.Gallery {
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+   
+}
+
+.Gallery img{
+    width: 100%;
+}
