@@ -10,7 +10,7 @@ function Header() {
 
     return (
         <div className="Header">
-            <div onClick={() => setMenuActive(!menuActive)}> <p>Hamburger</p></div>
+            <div onClick={() => setMenuActive(!menuActive)}> <p>MENU</p></div>
             <Menu menuActive={menuActive} setMenuActive={setMenuActive} />
         </div>
     )

@@ -4,7 +4,23 @@
     padding: 7%;
     color: #FFFFFF;
     font-size: 30px;
+    display: flex;
+    flex-direction: column;
 
+}
+.PasionBonsai h1{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.cardWrapper{
+    display: flex;
 }
 
 .PasionBonsai .card {

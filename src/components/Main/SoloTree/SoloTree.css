@@ -1,12 +1,19 @@
-.SoloTree p{
-    padding-left: 40%;
-    font-size: 44px;
+.title{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 22px;
     font-family: 'Raleway', sans-serif;
-}
-.SoloTree .tree img {
-    padding-left: 20%;
+    color: #939da5;
 
 }
-.SoloTree .videos img{
-    padding-left: 40%;
+.tree{
+    justify-content: center;
+    display: flex;
+}
+.videos {
+    justify-content: center;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }

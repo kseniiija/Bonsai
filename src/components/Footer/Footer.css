@@ -1,9 +1,29 @@
 .Footer {
     background-color: #000000;
+    display: flex;
 
 }
-
-.Footer .h1 {
+.information{
+    display: flex;
+    flex-direction: column;
     color: white;
-    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 60px;
+}
+.information h1{
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    color: #939DA5;
+    
+}
+.information p{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #939DA5;
+    
+}
+.map{
+    width: 100%;
 }

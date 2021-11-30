@@ -1,10 +1,12 @@
 .Header{
     color: #FFFFFF;
-    height: 50px;
+    height: 124px;
     background-color: #000000;
     position: relative;
+
 }
 .Header p{
     padding-top: 15px;
     text-align: right;
+    font-size: 40px;
 }

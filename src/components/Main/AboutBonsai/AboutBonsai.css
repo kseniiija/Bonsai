@@ -1,20 +1,25 @@
 .AboutBonsai {
     display: flex;
     font-family: 'Raleway', sans-serif;
+   
 }
 
 .AboutBonsai .bonsai-ontainer .title {
     font-size: 60px;
-    text-align: center;
+    text-align:left;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .AboutBonsai .bonsai-ontainer {
     padding: 40px;
+    text-align: justify;
+    height: 50%;
+    width: 50%;
 }
 
 .AboutBonsai .bonsai-ontainer p {
-    font-size: 40px;
+    font-size: 22px;
     width: 70%;  
+    
 }
